@@ -16,7 +16,7 @@ ops_tempfile
 lib_tempfile
 
 ## from LWRP
-ops_test_tmpfile do
+ops_test_tmpfile "crate tempfile" do
   path '/tmp/ops_lwrp_tempfile'
   content Time.now.to_s
 end
