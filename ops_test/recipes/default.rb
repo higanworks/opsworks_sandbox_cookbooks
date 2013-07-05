@@ -19,4 +19,5 @@ lib_tempfile
 ops_test_tmpfile "crate tempfile" do
   path '/tmp/ops_lwrp_tempfile'
   content Time.now.to_s
+  action :create
 end

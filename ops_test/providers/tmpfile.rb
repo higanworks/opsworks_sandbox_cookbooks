@@ -5,3 +5,7 @@ action :create do
   end
 end
 
+def load_current_resource
+  @current_resource = Chef::Resource::OpsTestTmpfile.new(new|ops_test_tmpfile "testname" do
+_resource.name)
+end
