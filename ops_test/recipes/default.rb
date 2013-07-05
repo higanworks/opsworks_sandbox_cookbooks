@@ -15,4 +15,8 @@ ops_tempfile
 ## from libraries
 lib_tempfile
 
-
+## from LWRP
+ops_test_tmpfile do
+  path '/tmp/ops_lwrp_tempfile'
+  content Time.now.to_s
+end
