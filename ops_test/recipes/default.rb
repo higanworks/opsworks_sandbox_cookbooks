@@ -10,5 +10,6 @@
 ops_tempfile
 
 lib_tempfile
+HiganWorks::OpsTest.lib_tempfile
 
 
