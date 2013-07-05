@@ -9,8 +9,10 @@
 
 ::Chef::Recipe.send(:include, HiganWorks::OpsTest)
 
+## from definitions
 ops_tempfile
 
+## from libraries
 lib_tempfile
 
 
